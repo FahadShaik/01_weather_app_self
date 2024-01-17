@@ -1,0 +1,51 @@
+body {
+    background-color: #051937;
+    color: white;
+    font-family: sans-serif;
+}
+
+.container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 14px auto 0;
+    flex-direction: column;
+    width: 426px;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    padding: 12px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.search {
+    justify-content: center;
+    display: flex;
+    margin-bottom: 21px;
+}
+
+
+input {
+    font-size: 26px;
+    border: gainsboro;
+    border-radius: 12px;
+    margin-right: 12px;
+    padding: 16px 8px;
+}
+
+button {
+    border: none;
+    border-radius: 12px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button img {
+    width: 30px;
+}
+
+.weather-details {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    align-items: center;
+}
