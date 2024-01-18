@@ -43,9 +43,21 @@ button img {
     width: 30px;
 }
 
+.weather {
+    display: none;
+}
+
 .weather-details {
     display: flex;
     width: 300px;
     justify-content: space-between;
     align-items: center;
+}
+
+.error-message {
+    text-align: left;
+    color: red;
+    font-size: 12px;
+    font-weight: bold;
+    display: none;
 }
